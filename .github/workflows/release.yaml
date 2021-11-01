@@ -25,7 +25,7 @@ jobs:
           make get-bins
           make test
           make gorelease
-      - name: Update new version in krew-index
-        uses: rajatjindal/krew-release-bot@v0.0.40
-        with:
-          krew_template_file: krew.yaml
+      # - name: Update new version in krew-index
+      #   uses: rajatjindal/krew-release-bot@v0.0.40
+      #   with:
+      #     krew_template_file: krew.yaml

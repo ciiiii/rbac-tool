@@ -69,7 +69,7 @@ release:
   # Default is extracted from the origin remote URL.
   # Note: it can only be one: either github or gitlab or gitea
   github:
-    owner: alcideio
+    owner: ciiiii
     name: rbac-tool
 
   # If set to true, will not auto-publish the release.
